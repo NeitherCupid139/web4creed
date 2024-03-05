@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1646ff64b9abd05a95af34084f50e09aecfbe3cf
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  font-size: calc(100vw/100);
+}
+
+::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+@media screen and (max-width: 768px) {
+  html,body{
+    overflow-x: hidden;
+  }
+}
+
+ *{
+  cursor: none;
+} 
+
+@layer base{
+  .bg-yellow-350{
+    background-color: #FFE700;
+  }
+  .text-red-350{
+    color: #E55E6F;
+  }
+  .text-stroke-white-2{
+    -webkit-text-stroke: 2px #fff;
+  }
+  .text-vertical-r{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+  .text-vertical-l{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+  }
+}
+
+@layer utilities {
+   .anime-pause {
+    animation-play-state: paused;
+    }
+    .origin-bottom-center{
+      transform-origin: bottom center;
+    }
+  }
