@@ -158,9 +158,9 @@ export default function Hero() {
       <div className=" absolute md:right-6 md:bottom-72 hidden md:block ">
         <Arrow />
       </div>
-      {/* <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <Keyboard />
-      </Suspense> */}
+      </Suspense>
 
       <ProsBar />
 
