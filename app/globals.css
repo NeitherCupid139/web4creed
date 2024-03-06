@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 
-:root{
-  font-size: calc(100vw/100);
-}
+
 
 html,body{
   width: 100%;
@@ -19,6 +17,12 @@ html,body{
 
 ::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
+}
+
+@media screen and (min-width: 768px){
+  :root{
+    font-size: calc(100vw/100);
+  }  
 }
 
 @media screen and (max-width: 768px) {

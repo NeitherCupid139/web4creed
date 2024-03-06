@@ -26,7 +26,7 @@ function MenuButton() {
       onMouseLeave={() => {
         setIsHover(false);
       }}
-      className=" fixed md:block hidden right-0 top-1/2 -translate-y-1/2 w-20 h-1/4 z-50  "
+      className=" fixed md:block hidden right-0 top-1/2 -translate-y-1/2 w-20 h-1/6 z-50  "
     ></div>
   );
 }
