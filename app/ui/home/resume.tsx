@@ -246,7 +246,7 @@ function IconGroup({ icon }: { icon: "ts" | "react" | "vue" }) {
   const { isHover, setIsHover } = useContext(LayoutContext);
 
   return (
-    <div className="grid grid-cols-3 justify-items-center gap-y-8 iconWrapper">
+    <div className="grid grid-cols-3 justify-items-center gap-y-8 gap-x-4 iconWrapper">
       {list.map((icon, index) => (
         <LazyMotion features={domAnimation} key={index}>
           <m.div

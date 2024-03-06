@@ -250,7 +250,7 @@ export default function Footprint() {
   return (
     <div
       ref={targetRef}
-      className="relative w-full bg-[#CCFF00] h-[400vh] snap-end    "
+      className="relative w-full bg-[#CCFF00] h-[400vh] hidden md:block  "
     >
       <div className=" sticky top-0 w-full h-screen flex md:justify-normal justify-center items-center md:overflow-hidden overflow-x-scroll ">
         <TopArea />
