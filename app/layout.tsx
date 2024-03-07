@@ -11,7 +11,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Creed Chung",
+  title: "Creed Chung-My Personal Website",
   description: "my personal website",
 };
 
